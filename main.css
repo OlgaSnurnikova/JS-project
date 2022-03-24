@@ -1,0 +1,70 @@
+.users-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    background-color: silver;
+    width: 320px;
+    height: 100px;
+    margin: 10px;
+    margin-left: calc(25% - 160px);
+    margin-right: calc(25% - 160px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.user-card{
+    background-color: lightgreen;
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+}
+.address-card{
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+}
+.company-card{
+    background-color: lightgoldenrodyellow;
+    height: 100px;
+    width: 200px;
+    margin: 20px
+}
+.posts-btn{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.posts-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-title{
+    background-color: silver;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    margin-left: calc(10% - 50px);
+    margin-right: calc(10% - 50px);
+ }
+.post-details{
+    background-color: tan;
+}
+.post-comments{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-comments > li{
+    background-color: gainsboro;
+    width: 100px;
+    margin: 20px;
+}
